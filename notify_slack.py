@@ -12,7 +12,7 @@ class Notify_Slack:
         self.attachments = [
             {
                 "color": "#32cd32",
-                "author_name": "【アラート抑止】タスク正常終了メッセージ通知",
+                "author_name": "【正常終了メッセージ通知】",
                 "text": text
             }
         ]
@@ -24,7 +24,7 @@ class Notify_Slack:
         self.attachments = [
             {
                 "color": "#ff6347",
-                "author_name": "【アラート抑止】タスク異常終了メッセージ通知",
+                "author_name": "【異常終了メッセージ通知】",
                 "text": text
             }
         ]
