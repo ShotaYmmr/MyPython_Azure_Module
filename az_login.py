@@ -8,9 +8,9 @@ class Az_KeyVault_Login:
         # ENV
         # self.client_id = ""
         # self.sec_token = ""
-        self.tenant_id = "649b580a-66f6-4d4a-9dc2-f9a3658a9711"
+        self.tenant_id = os.getenv("tenantID")
         # self.keyuser = ""
-        self.keyvaultname = "test-keyvault-555555"
+        self.keyvaultname = os.getenv("keyname")
         # CMD
         self.az_login_cmd = ""
         self.keyvault_id_cmd = 'az keyvault secret show --vault-name ' + \
